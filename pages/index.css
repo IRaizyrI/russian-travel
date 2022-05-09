@@ -22,6 +22,7 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__list-item/_span-accent/intro__list-item_span-accent.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -55,4 +56,10 @@
     src: url(../../fonts/Inter-Black.woff2);
     font-family: 'Inter';
     font-weight: 900;
+}
+
+@font-face {
+    src: url(../../fonts/Inter-SemiBold.woff2);
+    font-family: 'Inter';
+    font-weight: 700;
 }
