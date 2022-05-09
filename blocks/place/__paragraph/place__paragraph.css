@@ -1,0 +1,20 @@
+.place__paragraph{
+ margin: 0;
+ font-family: 'Inter';
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 29.34px;
+
+}
+.place__paragraph:nth-child(odd){
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 26.08px;
+
+    }
+  }
