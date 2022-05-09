@@ -1,0 +1,16 @@
+@keyframes opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+       opacity: .6;
+    }
+  }
+  
+  .link:hover{
+    animation: opacity 0.4s linear forwards;
+  }
+.link{
+    text-decoration: none;
+    color: #fff;
+}  
