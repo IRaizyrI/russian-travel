@@ -1,21 +1,12 @@
-.footer{
+.footer__links{
     display: flex;
     justify-items: start;
     align-items: center;
     max-width: 1184px;
-    margin: 0 auto;
-    padding-top: 92px;
 }
-
-  @media screen and (max-width: 1023px) {
-    .footer{
-    padding-top: 88px;
-    }
-  }
   @media screen and (max-width: 767px) {
-    .footer{
+    .footer__links{
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 64px;
     }
   }
