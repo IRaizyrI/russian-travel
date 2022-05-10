@@ -40,26 +40,24 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitile.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__background/cover__background.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 
 @font-face {
-    src: url(../../fonts/Inter-Regular.woff2);
+    src: url(../fonts/Inter-Regular.woff2) format("woff2");
     font-family: 'Inter';
     font-weight: normal;
 }
 @font-face {
-    src: url(../../fonts/Inter-Black.woff2);
+    src: url(../fonts/Inter-Black.woff2) format("woff2");
     font-family: 'Inter';
     font-weight: 900;
 }
 
 @font-face {
-    src: url(../../fonts/Inter-SemiBold.woff2);
+    src: url(../fonts/Inter-Bold.woff2) format("woff2");
     font-family: 'Inter';
     font-weight: 700;
 }
