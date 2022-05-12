@@ -6,10 +6,15 @@
     margin: 0 auto;
     padding-top: 92px;
 }
-
+  @media screen and (max-width: 1279px) {
+    .footer{
+        max-width: 90.625%;
+  }
+  }
   @media screen and (max-width: 1023px) {
     .footer{
-    padding-top: 88px;
+      padding-top: 88px;
+      max-width: 93.75%;
     }
   }
   @media screen and (max-width: 767px) {
@@ -17,5 +22,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding-top: 64px;
+    padding-left: 16px;
     }
   }

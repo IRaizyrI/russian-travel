@@ -4,14 +4,18 @@
     color: #fff;
     font-family: 'Inter';
 }
-
+@media screen and (max-width: 1279px) {
+.page{
+    padding: 28px 0px;
+}
+}
 @media screen and (max-width: 1023px) {
     .page {
-        padding: 28px 24px;
+        padding: 28px 0px;
     }
 }
 @media screen and (max-width: 767px) {
     .page {
-        padding: 16px;
+        padding: 16px 0px;
     }
 } 

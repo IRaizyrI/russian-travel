@@ -21,6 +21,7 @@
     .place {
         column-gap: 28px;
         margin-top: 73px;
+        padding: 0 24px;
     }
     .place:last-child{
         margin-bottom: 90px;
@@ -31,7 +32,7 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, min-content);
         margin-top: 50px;
-        max-width: 90%;
+        padding: 0;
     }
     .place:last-child{
         margin-bottom: 66px;

@@ -6,3 +6,9 @@
     font-size: 16px;
     font-family: 'Inter';
 }
+
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        max-width: 100%;
+    }
+} 

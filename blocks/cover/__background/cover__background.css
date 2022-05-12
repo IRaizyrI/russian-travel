@@ -27,36 +27,33 @@
 
   @media screen and (max-width: 1184px) { 
     .cover__background {
-        margin-left: -48px;
         min-height: 640px;
-        width: calc(100% + 96px);
+        width: 100%;
     }
     .cover__background::before { 
       min-height: 640px;
-      width: calc(100% + 96px);
+      width: 100%;
     }
   }
   @media screen and (max-width: 1023px) {
     .cover__background {
-        margin-left: -24px;
         min-height: 480px;
-        width: calc(100% + 48px);
+        width: 100%;
     }
     .cover__background::before { 
       min-height: 480px;
-      width: calc(100% + 48px);
+      width: 100%;
     }
   }
   @media screen and (max-width: 767px) {
     .cover__background {
-        margin-left: -16px;
         min-height: 200px;
-        width: calc(100% + 32px);
+        width: 100%;
         
     }
     .cover__background::before { 
       min-height: 200px;
-      width: calc(100% + 32px);
+      width: 100%;
     }
   }
   
